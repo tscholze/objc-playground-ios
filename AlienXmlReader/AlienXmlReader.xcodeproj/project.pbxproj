@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F655C80F154093110028E075 /* DetailAlienTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F655C80E154093110028E075 /* DetailAlienTagViewController.m */; };
+		F655C8121540A04C0028E075 /* icon-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = F655C8111540A04C0028E075 /* icon-screen.png */; };
+		F69929E2153DDAA7001F8E7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69929E1153DDAA7001F8E7F /* UIKit.framework */; };
+		F69929E4153DDAA7001F8E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69929E3153DDAA7001F8E7F /* Foundation.framework */; };
+		F69929E6153DDAA7001F8E7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69929E5153DDAA7001F8E7F /* CoreGraphics.framework */; };
+		F69929EC153DDAA8001F8E7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F69929EA153DDAA8001F8E7F /* InfoPlist.strings */; };
+		F69929EE153DDAA8001F8E7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69929ED153DDAA8001F8E7F /* main.m */; };
+		F69929F2153DDAA8001F8E7F /* de_tobonautAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69929F1153DDAA8001F8E7F /* de_tobonautAppDelegate.m */; };
+		F69929F5153DDAA8001F8E7F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69929F3153DDAA8001F8E7F /* MainStoryboard.storyboard */; };
+		F69929F8153DDAA8001F8E7F /* de_tobonautViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69929F7153DDAA8001F8E7F /* de_tobonautViewController.m */; };
+		F6992A00153DDBE0001F8E7F /* AlienTag.m in Sources */ = {isa = PBXBuildFile; fileRef = F69929FF153DDBE0001F8E7F /* AlienTag.m */; };
+		F6992A03153DDCCB001F8E7F /* AlienReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F6992A02153DDCCB001F8E7F /* AlienReader.m */; };
+		F6992A06153DDE17001F8E7F /* AlienXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6992A05153DDE17001F8E7F /* AlienXmlParser.m */; };
+		F6992A09153DEF4F001F8E7F /* TagTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6992A08153DEF4F001F8E7F /* TagTableViewController.m */; };
+		F6992A0D153DFF78001F8E7F /* icon-app.png in Resources */ = {isa = PBXBuildFile; fileRef = F6992A0C153DFF78001F8E7F /* icon-app.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F655C80D154093110028E075 /* DetailAlienTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailAlienTagViewController.h; path = ../DetailAlienTagViewController.h; sourceTree = "<group>"; };
+		F655C80E154093110028E075 /* DetailAlienTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailAlienTagViewController.m; path = ../DetailAlienTagViewController.m; sourceTree = "<group>"; };
+		F655C8111540A04C0028E075 /* icon-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-screen.png"; path = "../icon-screen.png"; sourceTree = "<group>"; };
+		F69929DD153DDAA7001F8E7F /* AlienXmlReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlienXmlReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69929E1153DDAA7001F8E7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F69929E3153DDAA7001F8E7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F69929E5153DDAA7001F8E7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F69929E9153DDAA7001F8E7F /* AlienXmlReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlienXmlReader-Info.plist"; sourceTree = "<group>"; };
+		F69929EB153DDAA8001F8E7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F69929ED153DDAA8001F8E7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69929EF153DDAA8001F8E7F /* AlienXmlReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlienXmlReader-Prefix.pch"; sourceTree = "<group>"; };
+		F69929F0153DDAA8001F8E7F /* de_tobonautAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautAppDelegate.h; sourceTree = "<group>"; };
+		F69929F1153DDAA8001F8E7F /* de_tobonautAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautAppDelegate.m; sourceTree = "<group>"; };
+		F69929F4153DDAA8001F8E7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F69929F6153DDAA8001F8E7F /* de_tobonautViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautViewController.h; sourceTree = "<group>"; };
+		F69929F7153DDAA8001F8E7F /* de_tobonautViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautViewController.m; sourceTree = "<group>"; };
+		F69929FE153DDBE0001F8E7F /* AlienTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienTag.h; sourceTree = "<group>"; };
+		F69929FF153DDBE0001F8E7F /* AlienTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlienTag.m; sourceTree = "<group>"; };
+		F6992A01153DDCCB001F8E7F /* AlienReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlienReader.h; path = ../AlienReader.h; sourceTree = "<group>"; };
+		F6992A02153DDCCB001F8E7F /* AlienReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlienReader.m; path = ../AlienReader.m; sourceTree = "<group>"; };
+		F6992A04153DDE17001F8E7F /* AlienXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienXmlParser.h; sourceTree = "<group>"; };
+		F6992A05153DDE17001F8E7F /* AlienXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlienXmlParser.m; sourceTree = "<group>"; };
+		F6992A07153DEF4F001F8E7F /* TagTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagTableViewController.h; path = ../TagTableViewController.h; sourceTree = "<group>"; };
+		F6992A08153DEF4F001F8E7F /* TagTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TagTableViewController.m; path = ../TagTableViewController.m; sourceTree = "<group>"; };
+		F6992A0C153DFF78001F8E7F /* icon-app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-app.png"; path = "../icon-app.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69929DA153DDAA7001F8E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69929E2153DDAA7001F8E7F /* UIKit.framework in Frameworks */,
+				F69929E4153DDAA7001F8E7F /* Foundation.framework in Frameworks */,
+				F69929E6153DDAA7001F8E7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69929D2153DDAA7001F8E7F = {
+			isa = PBXGroup;
+			children = (
+				F69929E7153DDAA7001F8E7F /* AlienXmlReader */,
+				F69929E0153DDAA7001F8E7F /* Frameworks */,
+				F69929DE153DDAA7001F8E7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69929DE153DDAA7001F8E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69929DD153DDAA7001F8E7F /* AlienXmlReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69929E0153DDAA7001F8E7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F69929E1153DDAA7001F8E7F /* UIKit.framework */,
+				F69929E3153DDAA7001F8E7F /* Foundation.framework */,
+				F69929E5153DDAA7001F8E7F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69929E7153DDAA7001F8E7F /* AlienXmlReader */ = {
+			isa = PBXGroup;
+			children = (
+				F6992A01153DDCCB001F8E7F /* AlienReader.h */,
+				F6992A02153DDCCB001F8E7F /* AlienReader.m */,
+				F69929FE153DDBE0001F8E7F /* AlienTag.h */,
+				F69929FF153DDBE0001F8E7F /* AlienTag.m */,
+				F6992A04153DDE17001F8E7F /* AlienXmlParser.h */,
+				F6992A05153DDE17001F8E7F /* AlienXmlParser.m */,
+				F69929F0153DDAA8001F8E7F /* de_tobonautAppDelegate.h */,
+				F69929F1153DDAA8001F8E7F /* de_tobonautAppDelegate.m */,
+				F69929F6153DDAA8001F8E7F /* de_tobonautViewController.h */,
+				F69929F7153DDAA8001F8E7F /* de_tobonautViewController.m */,
+				F655C80D154093110028E075 /* DetailAlienTagViewController.h */,
+				F655C80E154093110028E075 /* DetailAlienTagViewController.m */,
+				F6992A0C153DFF78001F8E7F /* icon-app.png */,
+				F655C8111540A04C0028E075 /* icon-screen.png */,
+				F69929F3153DDAA8001F8E7F /* MainStoryboard.storyboard */,
+				F69929E8153DDAA7001F8E7F /* Supporting Files */,
+				F6992A07153DEF4F001F8E7F /* TagTableViewController.h */,
+				F6992A08153DEF4F001F8E7F /* TagTableViewController.m */,
+			);
+			path = AlienXmlReader;
+			sourceTree = "<group>";
+		};
+		F69929E8153DDAA7001F8E7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69929E9153DDAA7001F8E7F /* AlienXmlReader-Info.plist */,
+				F69929EA153DDAA8001F8E7F /* InfoPlist.strings */,
+				F69929ED153DDAA8001F8E7F /* main.m */,
+				F69929EF153DDAA8001F8E7F /* AlienXmlReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69929DC153DDAA7001F8E7F /* AlienXmlReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69929FB153DDAA8001F8E7F /* Build configuration list for PBXNativeTarget "AlienXmlReader" */;
+			buildPhases = (
+				F69929D9153DDAA7001F8E7F /* Sources */,
+				F69929DA153DDAA7001F8E7F /* Frameworks */,
+				F69929DB153DDAA7001F8E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlienXmlReader;
+			productName = AlienXmlReader;
+			productReference = F69929DD153DDAA7001F8E7F /* AlienXmlReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69929D4153DDAA7001F8E7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Everybody;
+			};
+			buildConfigurationList = F69929D7153DDAA7001F8E7F /* Build configuration list for PBXProject "AlienXmlReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F69929D2153DDAA7001F8E7F;
+			productRefGroup = F69929DE153DDAA7001F8E7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69929DC153DDAA7001F8E7F /* AlienXmlReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69929DB153DDAA7001F8E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69929EC153DDAA8001F8E7F /* InfoPlist.strings in Resources */,
+				F69929F5153DDAA8001F8E7F /* MainStoryboard.storyboard in Resources */,
+				F6992A0D153DFF78001F8E7F /* icon-app.png in Resources */,
+				F655C8121540A04C0028E075 /* icon-screen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69929D9153DDAA7001F8E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69929EE153DDAA8001F8E7F /* main.m in Sources */,
+				F69929F2153DDAA8001F8E7F /* de_tobonautAppDelegate.m in Sources */,
+				F69929F8153DDAA8001F8E7F /* de_tobonautViewController.m in Sources */,
+				F6992A00153DDBE0001F8E7F /* AlienTag.m in Sources */,
+				F6992A03153DDCCB001F8E7F /* AlienReader.m in Sources */,
+				F6992A06153DDE17001F8E7F /* AlienXmlParser.m in Sources */,
+				F6992A09153DEF4F001F8E7F /* TagTableViewController.m in Sources */,
+				F655C80F154093110028E075 /* DetailAlienTagViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F69929EA153DDAA8001F8E7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69929EB153DDAA8001F8E7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F69929F3153DDAA8001F8E7F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69929F4153DDAA8001F8E7F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69929F9153DDAA8001F8E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F69929FA153DDAA8001F8E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69929FC153DDAA8001F8E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlienXmlReader/AlienXmlReader-Prefix.pch";
+				INFOPLIST_FILE = "AlienXmlReader/AlienXmlReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F69929FD153DDAA8001F8E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlienXmlReader/AlienXmlReader-Prefix.pch";
+				INFOPLIST_FILE = "AlienXmlReader/AlienXmlReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69929D7153DDAA7001F8E7F /* Build configuration list for PBXProject "AlienXmlReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69929F9153DDAA8001F8E7F /* Debug */,
+				F69929FA153DDAA8001F8E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69929FB153DDAA8001F8E7F /* Build configuration list for PBXNativeTarget "AlienXmlReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69929FC153DDAA8001F8E7F /* Debug */,
+				F69929FD153DDAA8001F8E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69929D4153DDAA7001F8E7F /* Project object */;
+}

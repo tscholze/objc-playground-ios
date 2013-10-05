@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F674115C1538C08300A4C550 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F674115B1538C08300A4C550 /* UIKit.framework */; };
+		F674115E1538C08300A4C550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F674115D1538C08300A4C550 /* Foundation.framework */; };
+		F67411601538C08300A4C550 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F674115F1538C08300A4C550 /* CoreGraphics.framework */; };
+		F67411661538C08300A4C550 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F67411641538C08300A4C550 /* InfoPlist.strings */; };
+		F67411681538C08300A4C550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F67411671538C08300A4C550 /* main.m */; };
+		F674116C1538C08300A4C550 /* de_tobonautAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F674116B1538C08300A4C550 /* de_tobonautAppDelegate.m */; };
+		F674116F1538C08300A4C550 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F674116D1538C08300A4C550 /* MainStoryboard.storyboard */; };
+		F67411721538C08300A4C550 /* de_tobonautViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67411711538C08300A4C550 /* de_tobonautViewController.m */; };
+		F67411791538C12000A4C550 /* fingerTap.png in Resources */ = {isa = PBXBuildFile; fileRef = F67411781538C12000A4C550 /* fingerTap.png */; };
+		F674117B1538C27700A4C550 /* tapFingerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F674117A1538C27700A4C550 /* tapFingerIcon.png */; };
+		F674117D1538C2FC00A4C550 /* tapFingerIcon@2.png in Resources */ = {isa = PBXBuildFile; fileRef = F674117C1538C2FC00A4C550 /* tapFingerIcon@2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F67411571538C08300A4C550 /* SimpleTouchEventHandling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTouchEventHandling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F674115B1538C08300A4C550 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F674115D1538C08300A4C550 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F674115F1538C08300A4C550 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F67411631538C08300A4C550 /* SimpleTouchEventHandling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTouchEventHandling-Info.plist"; sourceTree = "<group>"; };
+		F67411651538C08300A4C550 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F67411671538C08300A4C550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F67411691538C08300A4C550 /* SimpleTouchEventHandling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTouchEventHandling-Prefix.pch"; sourceTree = "<group>"; };
+		F674116A1538C08300A4C550 /* de_tobonautAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautAppDelegate.h; sourceTree = "<group>"; };
+		F674116B1538C08300A4C550 /* de_tobonautAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautAppDelegate.m; sourceTree = "<group>"; };
+		F674116E1538C08300A4C550 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F67411701538C08300A4C550 /* de_tobonautViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautViewController.h; sourceTree = "<group>"; };
+		F67411711538C08300A4C550 /* de_tobonautViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautViewController.m; sourceTree = "<group>"; };
+		F67411781538C12000A4C550 /* fingerTap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fingerTap.png; path = SimpleTouchEventHandling/fingerTap.png; sourceTree = "<group>"; };
+		F674117A1538C27700A4C550 /* tapFingerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapFingerIcon.png; sourceTree = "<group>"; };
+		F674117C1538C2FC00A4C550 /* tapFingerIcon@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapFingerIcon@2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F67411541538C08300A4C550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F674115C1538C08300A4C550 /* UIKit.framework in Frameworks */,
+				F674115E1538C08300A4C550 /* Foundation.framework in Frameworks */,
+				F67411601538C08300A4C550 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F674114C1538C08300A4C550 = {
+			isa = PBXGroup;
+			children = (
+				F674117C1538C2FC00A4C550 /* tapFingerIcon@2.png */,
+				F674117A1538C27700A4C550 /* tapFingerIcon.png */,
+				F67411781538C12000A4C550 /* fingerTap.png */,
+				F67411611538C08300A4C550 /* SimpleTouchEventHandling */,
+				F674115A1538C08300A4C550 /* Frameworks */,
+				F67411581538C08300A4C550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F67411581538C08300A4C550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F67411571538C08300A4C550 /* SimpleTouchEventHandling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F674115A1538C08300A4C550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F674115B1538C08300A4C550 /* UIKit.framework */,
+				F674115D1538C08300A4C550 /* Foundation.framework */,
+				F674115F1538C08300A4C550 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F67411611538C08300A4C550 /* SimpleTouchEventHandling */ = {
+			isa = PBXGroup;
+			children = (
+				F674116A1538C08300A4C550 /* de_tobonautAppDelegate.h */,
+				F674116B1538C08300A4C550 /* de_tobonautAppDelegate.m */,
+				F674116D1538C08300A4C550 /* MainStoryboard.storyboard */,
+				F67411701538C08300A4C550 /* de_tobonautViewController.h */,
+				F67411711538C08300A4C550 /* de_tobonautViewController.m */,
+				F67411621538C08300A4C550 /* Supporting Files */,
+			);
+			path = SimpleTouchEventHandling;
+			sourceTree = "<group>";
+		};
+		F67411621538C08300A4C550 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F67411631538C08300A4C550 /* SimpleTouchEventHandling-Info.plist */,
+				F67411641538C08300A4C550 /* InfoPlist.strings */,
+				F67411671538C08300A4C550 /* main.m */,
+				F67411691538C08300A4C550 /* SimpleTouchEventHandling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F67411561538C08300A4C550 /* SimpleTouchEventHandling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67411751538C08300A4C550 /* Build configuration list for PBXNativeTarget "SimpleTouchEventHandling" */;
+			buildPhases = (
+				F67411531538C08300A4C550 /* Sources */,
+				F67411541538C08300A4C550 /* Frameworks */,
+				F67411551538C08300A4C550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTouchEventHandling;
+			productName = SimpleTouchEventHandling;
+			productReference = F67411571538C08300A4C550 /* SimpleTouchEventHandling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F674114E1538C08300A4C550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Everybody;
+			};
+			buildConfigurationList = F67411511538C08300A4C550 /* Build configuration list for PBXProject "SimpleTouchEventHandling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F674114C1538C08300A4C550;
+			productRefGroup = F67411581538C08300A4C550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F67411561538C08300A4C550 /* SimpleTouchEventHandling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F67411551538C08300A4C550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67411661538C08300A4C550 /* InfoPlist.strings in Resources */,
+				F674116F1538C08300A4C550 /* MainStoryboard.storyboard in Resources */,
+				F67411791538C12000A4C550 /* fingerTap.png in Resources */,
+				F674117B1538C27700A4C550 /* tapFingerIcon.png in Resources */,
+				F674117D1538C2FC00A4C550 /* tapFingerIcon@2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F67411531538C08300A4C550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67411681538C08300A4C550 /* main.m in Sources */,
+				F674116C1538C08300A4C550 /* de_tobonautAppDelegate.m in Sources */,
+				F67411721538C08300A4C550 /* de_tobonautViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F67411641538C08300A4C550 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67411651538C08300A4C550 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F674116D1538C08300A4C550 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F674116E1538C08300A4C550 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F67411731538C08300A4C550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F67411741538C08300A4C550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F67411761538C08300A4C550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTouchEventHandling/SimpleTouchEventHandling-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTouchEventHandling/SimpleTouchEventHandling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F67411771538C08300A4C550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTouchEventHandling/SimpleTouchEventHandling-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTouchEventHandling/SimpleTouchEventHandling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F67411511538C08300A4C550 /* Build configuration list for PBXProject "SimpleTouchEventHandling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67411731538C08300A4C550 /* Debug */,
+				F67411741538C08300A4C550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67411751538C08300A4C550 /* Build configuration list for PBXNativeTarget "SimpleTouchEventHandling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67411761538C08300A4C550 /* Debug */,
+				F67411771538C08300A4C550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F674114E1538C08300A4C550 /* Project object */;
+}

@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6527123154191EB00732414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6527122154191EB00732414 /* UIKit.framework */; };
+		F6527125154191EB00732414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6527124154191EB00732414 /* Foundation.framework */; };
+		F6527127154191EB00732414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6527126154191EB00732414 /* CoreGraphics.framework */; };
+		F652712D154191EB00732414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F652712B154191EB00732414 /* InfoPlist.strings */; };
+		F652712F154191EB00732414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F652712E154191EB00732414 /* main.m */; };
+		F6527133154191EB00732414 /* de_tobonautAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6527132154191EB00732414 /* de_tobonautAppDelegate.m */; };
+		F6527136154191EB00732414 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6527134154191EB00732414 /* MainStoryboard.storyboard */; };
+		F6527139154191EB00732414 /* de_tobonautViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6527138154191EB00732414 /* de_tobonautViewController.m */; };
+		F65271401541924300732414 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F652713F1541924300732414 /* Twitter.framework */; };
+		F65271421541963C00732414 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F65271411541963C00732414 /* app-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F652711E154191EB00732414 /* SimpleTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6527122154191EB00732414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6527124154191EB00732414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6527126154191EB00732414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F652712A154191EB00732414 /* SimpleTwitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTwitter-Info.plist"; sourceTree = "<group>"; };
+		F652712C154191EB00732414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F652712E154191EB00732414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6527130154191EB00732414 /* SimpleTwitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		F6527131154191EB00732414 /* de_tobonautAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautAppDelegate.h; sourceTree = "<group>"; };
+		F6527132154191EB00732414 /* de_tobonautAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautAppDelegate.m; sourceTree = "<group>"; };
+		F6527135154191EB00732414 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F6527137154191EB00732414 /* de_tobonautViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautViewController.h; sourceTree = "<group>"; };
+		F6527138154191EB00732414 /* de_tobonautViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautViewController.m; sourceTree = "<group>"; };
+		F652713F1541924300732414 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		F65271411541963C00732414 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F652711B154191EB00732414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65271401541924300732414 /* Twitter.framework in Frameworks */,
+				F6527123154191EB00732414 /* UIKit.framework in Frameworks */,
+				F6527125154191EB00732414 /* Foundation.framework in Frameworks */,
+				F6527127154191EB00732414 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6527113154191EB00732414 = {
+			isa = PBXGroup;
+			children = (
+				F65271411541963C00732414 /* app-icon.png */,
+				F6527128154191EB00732414 /* SimpleTwitter */,
+				F6527121154191EB00732414 /* Frameworks */,
+				F652711F154191EB00732414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F652711F154191EB00732414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F652711E154191EB00732414 /* SimpleTwitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6527121154191EB00732414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F652713F1541924300732414 /* Twitter.framework */,
+				F6527122154191EB00732414 /* UIKit.framework */,
+				F6527124154191EB00732414 /* Foundation.framework */,
+				F6527126154191EB00732414 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6527128154191EB00732414 /* SimpleTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				F6527131154191EB00732414 /* de_tobonautAppDelegate.h */,
+				F6527132154191EB00732414 /* de_tobonautAppDelegate.m */,
+				F6527134154191EB00732414 /* MainStoryboard.storyboard */,
+				F6527137154191EB00732414 /* de_tobonautViewController.h */,
+				F6527138154191EB00732414 /* de_tobonautViewController.m */,
+				F6527129154191EB00732414 /* Supporting Files */,
+			);
+			path = SimpleTwitter;
+			sourceTree = "<group>";
+		};
+		F6527129154191EB00732414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F652712A154191EB00732414 /* SimpleTwitter-Info.plist */,
+				F652712B154191EB00732414 /* InfoPlist.strings */,
+				F652712E154191EB00732414 /* main.m */,
+				F6527130154191EB00732414 /* SimpleTwitter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F652711D154191EB00732414 /* SimpleTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F652713C154191EB00732414 /* Build configuration list for PBXNativeTarget "SimpleTwitter" */;
+			buildPhases = (
+				F652711A154191EB00732414 /* Sources */,
+				F652711B154191EB00732414 /* Frameworks */,
+				F652711C154191EB00732414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTwitter;
+			productName = SimpleTwitter;
+			productReference = F652711E154191EB00732414 /* SimpleTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6527115154191EB00732414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Everybody;
+			};
+			buildConfigurationList = F6527118154191EB00732414 /* Build configuration list for PBXProject "SimpleTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6527113154191EB00732414;
+			productRefGroup = F652711F154191EB00732414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F652711D154191EB00732414 /* SimpleTwitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F652711C154191EB00732414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F652712D154191EB00732414 /* InfoPlist.strings in Resources */,
+				F6527136154191EB00732414 /* MainStoryboard.storyboard in Resources */,
+				F65271421541963C00732414 /* app-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F652711A154191EB00732414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F652712F154191EB00732414 /* main.m in Sources */,
+				F6527133154191EB00732414 /* de_tobonautAppDelegate.m in Sources */,
+				F6527139154191EB00732414 /* de_tobonautViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F652712B154191EB00732414 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F652712C154191EB00732414 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6527134154191EB00732414 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6527135154191EB00732414 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F652713A154191EB00732414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F652713B154191EB00732414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F652713D154191EB00732414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTwitter/SimpleTwitter-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTwitter/SimpleTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F652713E154191EB00732414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTwitter/SimpleTwitter-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTwitter/SimpleTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6527118154191EB00732414 /* Build configuration list for PBXProject "SimpleTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F652713A154191EB00732414 /* Debug */,
+				F652713B154191EB00732414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F652713C154191EB00732414 /* Build configuration list for PBXNativeTarget "SimpleTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F652713D154191EB00732414 /* Debug */,
+				F652713E154191EB00732414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6527115154191EB00732414 /* Project object */;
+}

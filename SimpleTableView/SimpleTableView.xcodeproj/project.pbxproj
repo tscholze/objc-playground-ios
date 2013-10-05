@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F661636C1539768F006E4349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F661636B1539768F006E4349 /* UIKit.framework */; };
+		F661636E1539768F006E4349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F661636D1539768F006E4349 /* Foundation.framework */; };
+		F66163701539768F006E4349 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F661636F1539768F006E4349 /* CoreGraphics.framework */; };
+		F66163761539768F006E4349 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66163741539768F006E4349 /* InfoPlist.strings */; };
+		F66163781539768F006E4349 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F66163771539768F006E4349 /* main.m */; };
+		F661637C1539768F006E4349 /* de_tobonautAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F661637B1539768F006E4349 /* de_tobonautAppDelegate.m */; };
+		F661637F1539768F006E4349 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661637D1539768F006E4349 /* MainStoryboard.storyboard */; };
+		F66163821539768F006E4349 /* de_tobonautViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66163811539768F006E4349 /* de_tobonautViewController.m */; };
+		F661638A153976D4006E4349 /* tapFingerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6616388153976D4006E4349 /* tapFingerIcon.png */; };
+		F661638B153976D4006E4349 /* tapFingerIcon@2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6616389153976D4006E4349 /* tapFingerIcon@2.png */; };
+		F661638E15397843006E4349 /* myTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F661638D15397843006E4349 /* myTableViewController.m */; };
+		F661639115397894006E4349 /* myTableViewEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F661639015397894006E4349 /* myTableViewEntry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F66163671539768F006E4349 /* SimpleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661636B1539768F006E4349 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F661636D1539768F006E4349 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F661636F1539768F006E4349 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F66163731539768F006E4349 /* SimpleTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableView-Info.plist"; sourceTree = "<group>"; };
+		F66163751539768F006E4349 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F66163771539768F006E4349 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F66163791539768F006E4349 /* SimpleTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTableView-Prefix.pch"; sourceTree = "<group>"; };
+		F661637A1539768F006E4349 /* de_tobonautAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautAppDelegate.h; sourceTree = "<group>"; };
+		F661637B1539768F006E4349 /* de_tobonautAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautAppDelegate.m; sourceTree = "<group>"; };
+		F661637E1539768F006E4349 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F66163801539768F006E4349 /* de_tobonautViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautViewController.h; sourceTree = "<group>"; };
+		F66163811539768F006E4349 /* de_tobonautViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautViewController.m; sourceTree = "<group>"; };
+		F6616388153976D4006E4349 /* tapFingerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapFingerIcon.png; sourceTree = "<group>"; };
+		F6616389153976D4006E4349 /* tapFingerIcon@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapFingerIcon@2.png"; sourceTree = "<group>"; };
+		F661638C15397843006E4349 /* myTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewController.h; sourceTree = "<group>"; };
+		F661638D15397843006E4349 /* myTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewController.m; sourceTree = "<group>"; };
+		F661638F15397894006E4349 /* myTableViewEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewEntry.h; sourceTree = "<group>"; };
+		F661639015397894006E4349 /* myTableViewEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66163641539768F006E4349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661636C1539768F006E4349 /* UIKit.framework in Frameworks */,
+				F661636E1539768F006E4349 /* Foundation.framework in Frameworks */,
+				F66163701539768F006E4349 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F661635C1539768F006E4349 = {
+			isa = PBXGroup;
+			children = (
+				F6616388153976D4006E4349 /* tapFingerIcon.png */,
+				F6616389153976D4006E4349 /* tapFingerIcon@2.png */,
+				F66163711539768F006E4349 /* SimpleTableView */,
+				F661636A1539768F006E4349 /* Frameworks */,
+				F66163681539768F006E4349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66163681539768F006E4349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66163671539768F006E4349 /* SimpleTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F661636A1539768F006E4349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F661636B1539768F006E4349 /* UIKit.framework */,
+				F661636D1539768F006E4349 /* Foundation.framework */,
+				F661636F1539768F006E4349 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66163711539768F006E4349 /* SimpleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F661638F15397894006E4349 /* myTableViewEntry.h */,
+				F661639015397894006E4349 /* myTableViewEntry.m */,
+				F661637A1539768F006E4349 /* de_tobonautAppDelegate.h */,
+				F661637B1539768F006E4349 /* de_tobonautAppDelegate.m */,
+				F661637D1539768F006E4349 /* MainStoryboard.storyboard */,
+				F661638C15397843006E4349 /* myTableViewController.h */,
+				F661638D15397843006E4349 /* myTableViewController.m */,
+				F66163801539768F006E4349 /* de_tobonautViewController.h */,
+				F66163811539768F006E4349 /* de_tobonautViewController.m */,
+				F66163721539768F006E4349 /* Supporting Files */,
+			);
+			path = SimpleTableView;
+			sourceTree = "<group>";
+		};
+		F66163721539768F006E4349 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66163731539768F006E4349 /* SimpleTableView-Info.plist */,
+				F66163741539768F006E4349 /* InfoPlist.strings */,
+				F66163771539768F006E4349 /* main.m */,
+				F66163791539768F006E4349 /* SimpleTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66163661539768F006E4349 /* SimpleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66163851539768F006E4349 /* Build configuration list for PBXNativeTarget "SimpleTableView" */;
+			buildPhases = (
+				F66163631539768F006E4349 /* Sources */,
+				F66163641539768F006E4349 /* Frameworks */,
+				F66163651539768F006E4349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTableView;
+			productName = SimpleTableView;
+			productReference = F66163671539768F006E4349 /* SimpleTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F661635E1539768F006E4349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Everybody;
+			};
+			buildConfigurationList = F66163611539768F006E4349 /* Build configuration list for PBXProject "SimpleTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F661635C1539768F006E4349;
+			productRefGroup = F66163681539768F006E4349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66163661539768F006E4349 /* SimpleTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66163651539768F006E4349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66163761539768F006E4349 /* InfoPlist.strings in Resources */,
+				F661637F1539768F006E4349 /* MainStoryboard.storyboard in Resources */,
+				F661638A153976D4006E4349 /* tapFingerIcon.png in Resources */,
+				F661638B153976D4006E4349 /* tapFingerIcon@2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66163631539768F006E4349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66163781539768F006E4349 /* main.m in Sources */,
+				F661637C1539768F006E4349 /* de_tobonautAppDelegate.m in Sources */,
+				F66163821539768F006E4349 /* de_tobonautViewController.m in Sources */,
+				F661638E15397843006E4349 /* myTableViewController.m in Sources */,
+				F661639115397894006E4349 /* myTableViewEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F66163741539768F006E4349 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66163751539768F006E4349 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F661637D1539768F006E4349 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661637E1539768F006E4349 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66163831539768F006E4349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F66163841539768F006E4349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F66163861539768F006E4349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTableView/SimpleTableView-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableView/SimpleTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F66163871539768F006E4349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTableView/SimpleTableView-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableView/SimpleTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66163611539768F006E4349 /* Build configuration list for PBXProject "SimpleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66163831539768F006E4349 /* Debug */,
+				F66163841539768F006E4349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66163851539768F006E4349 /* Build configuration list for PBXNativeTarget "SimpleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66163861539768F006E4349 /* Debug */,
+				F66163871539768F006E4349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F661635E1539768F006E4349 /* Project object */;
+}

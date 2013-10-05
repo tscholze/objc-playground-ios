@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F65270F215418F3300732414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65270F115418F3300732414 /* UIKit.framework */; };
+		F65270F415418F3300732414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65270F315418F3300732414 /* Foundation.framework */; };
+		F65270F615418F3300732414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65270F515418F3300732414 /* CoreGraphics.framework */; };
+		F65270FC15418F3300732414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F65270FA15418F3300732414 /* InfoPlist.strings */; };
+		F65270FE15418F3300732414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F65270FD15418F3300732414 /* main.m */; };
+		F652710215418F3300732414 /* de_tobonautAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F652710115418F3300732414 /* de_tobonautAppDelegate.m */; };
+		F652710515418F3300732414 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F652710315418F3300732414 /* MainStoryboard.storyboard */; };
+		F652710815418F3300732414 /* de_tobonautViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F652710715418F3300732414 /* de_tobonautViewController.m */; };
+		F652711015418FCE00732414 /* MyAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F652710F15418FCE00732414 /* MyAdViewController.m */; };
+		F652711215418FDB00732414 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F652711115418FDB00732414 /* iAd.framework */; };
+		F6527148154196AE00732414 /* my-iad-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6527147154196AE00732414 /* my-iad-app-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F65270ED15418F3300732414 /* SimpleAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65270F115418F3300732414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F65270F315418F3300732414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F65270F515418F3300732414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F65270F915418F3300732414 /* SimpleAd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleAd-Info.plist"; sourceTree = "<group>"; };
+		F65270FB15418F3300732414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F65270FD15418F3300732414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F65270FF15418F3300732414 /* SimpleAd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleAd-Prefix.pch"; sourceTree = "<group>"; };
+		F652710015418F3300732414 /* de_tobonautAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautAppDelegate.h; sourceTree = "<group>"; };
+		F652710115418F3300732414 /* de_tobonautAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautAppDelegate.m; sourceTree = "<group>"; };
+		F652710415418F3300732414 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F652710615418F3300732414 /* de_tobonautViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = de_tobonautViewController.h; sourceTree = "<group>"; };
+		F652710715418F3300732414 /* de_tobonautViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = de_tobonautViewController.m; sourceTree = "<group>"; };
+		F652710E15418FCE00732414 /* MyAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAdViewController.h; sourceTree = "<group>"; };
+		F652710F15418FCE00732414 /* MyAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAdViewController.m; sourceTree = "<group>"; };
+		F652711115418FDB00732414 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F6527147154196AE00732414 /* my-iad-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-iad-app-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F65270EA15418F3300732414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F652711215418FDB00732414 /* iAd.framework in Frameworks */,
+				F65270F215418F3300732414 /* UIKit.framework in Frameworks */,
+				F65270F415418F3300732414 /* Foundation.framework in Frameworks */,
+				F65270F615418F3300732414 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F65270E215418F3300732414 = {
+			isa = PBXGroup;
+			children = (
+				F6527147154196AE00732414 /* my-iad-app-icon.png */,
+				F65270F715418F3300732414 /* SimpleAd */,
+				F65270F015418F3300732414 /* Frameworks */,
+				F65270EE15418F3300732414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F65270EE15418F3300732414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F65270ED15418F3300732414 /* SimpleAd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65270F015418F3300732414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F652711115418FDB00732414 /* iAd.framework */,
+				F65270F115418F3300732414 /* UIKit.framework */,
+				F65270F315418F3300732414 /* Foundation.framework */,
+				F65270F515418F3300732414 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F65270F715418F3300732414 /* SimpleAd */ = {
+			isa = PBXGroup;
+			children = (
+				F652710015418F3300732414 /* de_tobonautAppDelegate.h */,
+				F652710115418F3300732414 /* de_tobonautAppDelegate.m */,
+				F652710315418F3300732414 /* MainStoryboard.storyboard */,
+				F652710E15418FCE00732414 /* MyAdViewController.h */,
+				F652710F15418FCE00732414 /* MyAdViewController.m */,
+				F652710615418F3300732414 /* de_tobonautViewController.h */,
+				F652710715418F3300732414 /* de_tobonautViewController.m */,
+				F65270F815418F3300732414 /* Supporting Files */,
+			);
+			path = SimpleAd;
+			sourceTree = "<group>";
+		};
+		F65270F815418F3300732414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F65270F915418F3300732414 /* SimpleAd-Info.plist */,
+				F65270FA15418F3300732414 /* InfoPlist.strings */,
+				F65270FD15418F3300732414 /* main.m */,
+				F65270FF15418F3300732414 /* SimpleAd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F65270EC15418F3300732414 /* SimpleAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F652710B15418F3300732414 /* Build configuration list for PBXNativeTarget "SimpleAd" */;
+			buildPhases = (
+				F65270E915418F3300732414 /* Sources */,
+				F65270EA15418F3300732414 /* Frameworks */,
+				F65270EB15418F3300732414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAd;
+			productName = SimpleAd;
+			productReference = F65270ED15418F3300732414 /* SimpleAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F65270E415418F3300732414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Everybody;
+			};
+			buildConfigurationList = F65270E715418F3300732414 /* Build configuration list for PBXProject "SimpleAd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F65270E215418F3300732414;
+			productRefGroup = F65270EE15418F3300732414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F65270EC15418F3300732414 /* SimpleAd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F65270EB15418F3300732414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65270FC15418F3300732414 /* InfoPlist.strings in Resources */,
+				F652710515418F3300732414 /* MainStoryboard.storyboard in Resources */,
+				F6527148154196AE00732414 /* my-iad-app-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F65270E915418F3300732414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65270FE15418F3300732414 /* main.m in Sources */,
+				F652710215418F3300732414 /* de_tobonautAppDelegate.m in Sources */,
+				F652710815418F3300732414 /* de_tobonautViewController.m in Sources */,
+				F652711015418FCE00732414 /* MyAdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F65270FA15418F3300732414 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65270FB15418F3300732414 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F652710315418F3300732414 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F652710415418F3300732414 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F652710915418F3300732414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F652710A15418F3300732414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F652710C15418F3300732414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleAd/SimpleAd-Prefix.pch";
+				INFOPLIST_FILE = "SimpleAd/SimpleAd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F652710D15418F3300732414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleAd/SimpleAd-Prefix.pch";
+				INFOPLIST_FILE = "SimpleAd/SimpleAd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F65270E715418F3300732414 /* Build configuration list for PBXProject "SimpleAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F652710915418F3300732414 /* Debug */,
+				F652710A15418F3300732414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F652710B15418F3300732414 /* Build configuration list for PBXNativeTarget "SimpleAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F652710C15418F3300732414 /* Debug */,
+				F652710D15418F3300732414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F65270E415418F3300732414 /* Project object */;
+}
